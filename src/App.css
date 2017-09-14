@@ -1,3 +1,9 @@
+@import url(https://fonts.googleapis.com/css?family=Lora);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css);
 .App {
   text-align: center;
 }
@@ -23,9 +29,83 @@
   to { transform: rotate(360deg); }
 }
 .image-box {
-  width: 100px;
+  margin: 0 auto;
+  width: 80%;
+  max-width: 80%;
+  max-height: 200px;
 }
 .box {
-  margin: 20px 0 20px 0;
+  text-align: center;
+  margin: 156px -75px -93px 38px;
   max-height: 215px;
 }
+.one {
+  padding-left: 25px;
+  margin: 0 auto;
+  text-align: center;
+
+}
+h1 {
+  text-align: center;
+}
+.note {
+    margin: 0 auto;
+    background: #5B88B7;
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    opacity: 0;
+    transition: all ease 0.5s;
+    -webkit-transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+}
+.note:hover {
+    opacity: 1;
+}
+.note .note-content {
+
+    position: absolute;
+    width: 80%;
+    height: 0px;
+    font-size: 20px;
+    text-align: center;
+    top: 50%;
+    color: white;
+}
+
+.note .note-content p.workss {
+  color: black;
+  font-family: "Lora";
+  text-align: center;
+  font-size: 12px;
+  margin-top: -35px;
+  padding: 10px 10px 0 20px;
+}
+/*.note {
+    background: #5B88B7;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all ease 0.5s;
+    -webkit-transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+}
+.note .note-content {
+    position: absolute;
+    width: 100%;
+    height: 0px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    top: 50%;
+    color: black;
+}
+.note .note-content p.workss {
+    color: black;
+    font-family: "Lora";
+    text-align: center;
+    font-size: 22px;
+    margin-top: -8px;
+    padding: 0 20px 0 20px;
+}*/
