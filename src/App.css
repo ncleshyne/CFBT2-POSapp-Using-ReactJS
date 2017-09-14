@@ -22,3 +22,10 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+.image-box {
+  width: 100px;
+}
+.box {
+  margin: 20px 0 20px 0;
+  max-height: 215px;
+}
