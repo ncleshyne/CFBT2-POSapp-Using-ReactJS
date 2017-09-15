@@ -112,6 +112,17 @@ createProduct(product) {
    return(
    <div>
      {products}
+     <nav className="navbar navbar-default navbar-fixed-bottom">
+       <div className="container">
+           <div id="navbarCollapse" className="collapse navbar-collapse">
+               <ul className="nav navbar-nav navbar-right">
+                   <div className="container">
+                   <Total total={this.state.total}/>
+                   </div>
+               </ul>
+         </div>
+       </div>
+     </nav>
    </div>
  );
  }
