@@ -72,14 +72,85 @@
 .box {
   margin: 156px -75px -93px 38px;
 }
+html {
+	background-color: #fff;
+	-webkit-font-smoothing: antialiased;
+	}
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #23292D;
+    background: #fff;
+    -webkit-font-smoothing: antialiased;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+
 h1 {
+    color: #2E282B;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+		font-size: 3em;
+    font-style: normal;
+    letter-spacing: 2px;
+    text-align: center;
+}
+h2 {
+  color: #2E282B;
+  font-family: 'Lora';
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
   text-align: center;
+  letter-spacing: 2px;
+  margin-top: 20px;
 }
 .one {
   padding-left: 25px;
   margin: 0 auto;
   text-align: center;
 
+}
+.navbar-fixed-top {
+    top: 0;
+    border-width: 0;
+}
+.navbar-right {
+	margin-right: 0px;
+}
+.navbar-left {
+	display: block;
+	margin-top:-10px;
+	margin-left: 0;
+}
+
+.navbar-collapse, .navbar-fixed-top, .container {
+    background: #fff;
+    margin-top: 0;
+    padding: 0px 0px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.navbar-nav>li>a {
+    padding-top: 15px;
+    padding-bottom: 0;
+}
+.navbar-fixed-top, .container, .navbar-collapse, .navbar-default, .navbar-nav li {
+		margin: 0px !important;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    display: inline-block;
+
+}
+.navbar-default .navbar-nav>li>a {
+    color: #000;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #faa9a7;
+    background-color: transparent;
 }
 /*
 this is it

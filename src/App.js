@@ -82,7 +82,7 @@ calcTotal(price) {
 
 
 showProduct(details){
- alert("Info: " + details);
+ alert(details);
 }
 
 createProduct(product) {
@@ -100,9 +100,7 @@ createProduct(product) {
           <div className="note">
             <div className="note-content">
               <p className="workss">
-                <Product name={prod.name} price={prod.price}
-                  handleShow={component.showProduct}
-                  handleTotal={component.calcTotal}/>
+                <Product name={prod.name} details={prod.details} price={prod.price} handleShow = {component.showProduct} handleTotal={component.calcTotal}/>
               </p>
             </div>
           </div>
